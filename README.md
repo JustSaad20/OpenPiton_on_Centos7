@@ -35,7 +35,7 @@ This document provides a step-by-step guide for installing OpenPiton on a CentOS
 - Source the setup scripts:
 
     ```
-    source $PITON_ROOT/piton/piton_settings.
+    source $PITON_ROOT/piton/piton_settings.sh
     source $PITON_ROOT/piton/ariane_setup.sh
     ```
 
