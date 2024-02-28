@@ -60,8 +60,8 @@ This document provides a step-by-step guide for installing OpenPiton on a CentOS
         [url "https://github.com/rth7680"]
             insteadOf = git://github.com/rth7680
         ```
-        
-![[Screenshot from 2024-02-28 20-26-37 2.png]]
+![gitconfig_SS](/gitconfig_SS.png?raw=true)
+
     - Save and close the file.
 
 - **Build tools:**
@@ -89,7 +89,7 @@ This document provides a step-by-step guide for installing OpenPiton on a CentOS
     ```
     sims -sys=manycore -vlt_run -x_tiles=2 -y_tiles=2 dhrystone.riscv -ariane -precompiled -rtl_timeout 10000000
     ```
-![[Screenshot from 2024-02-27 19-14-04.png]]
+![dhrystone](/dhrystone_run.png?raw=true)
 
 
 ### 4. Adding Environment Variables to Shell (Optional)
